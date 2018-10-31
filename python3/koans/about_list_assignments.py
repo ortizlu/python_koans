@@ -27,7 +27,7 @@ class AboutListAssignments(Koan):
     def test_parallel_assignments_with_sublists(self):
       #splits nested array into first name, and last name is Johnson
         first_name, last_name = [["Willie", "Rae"], "Johnson"]
-        self.assertEqual(["willie", "Rae"], first_name)
+        self.assertEqual(["Willie", "Rae"], first_name)
         self.assertEqual("Johnson", last_name)
 
     def test_swapping_with_parallel_assignment(self):
